@@ -9,6 +9,7 @@ In this repository there are projects that I have created in [Front-End Career P
 ## Projects <!-- omit in toc -->
   ### JavaScript 
   - [Credit Card Checker](https://github.com/IamGrootie/codeademy-projects---front-end-path/tree/main/CreditCardChecker)
+  - [Mysterious Organism](https://github.com/IamGrootie/codeademy-projects---front-end-path/tree/main/MysteriousOrganism)
   ### HTML+CSS
   - [Company Home Project](https://github.com/IamGrootie/codeademy-projects---front-end-path/tree/main/CompanyHomeProj)
 
