@@ -4,7 +4,7 @@
 
 <h1 align="center">Project: Mysterious Organism</h1>
 
-This project was created in partership with Mysteryman according to the open-ended [tasks](https://www.codecademy.com/paths/front-end-engineer-career-path/tracks/fecp-22-javascript-syntax-part-ii/modules/wdcp-22-mysterious-organism/projects/mysterious-organism)
+This project was created in partership with **Mysteryman** according to the open-ended [tasks](https://www.codecademy.com/paths/front-end-engineer-career-path/tracks/fecp-22-javascript-syntax-part-ii/modules/wdcp-22-mysterious-organism/projects/mysterious-organism)
 
 ##
 
