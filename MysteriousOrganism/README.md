@@ -13,9 +13,9 @@ Context: You’re part of a research team that has found a new mysterious organi
 
 ## [Tasks](https://www.codecademy.com/paths/front-end-engineer-career-path/tracks/fecp-22-javascript-syntax-part-ii/modules/wdcp-22-mysterious-organism/projects/mysterious-organism)
 
-    1. Generate an array containing 15 bases ('A', 'B', 'C' and 'D') to represent a single DNA
-    2. Create a factory (*pAequorFactory()*) that returns an object that contains the properties specimenNum and dna that correspond to the parameters provided
-    3. Add a method that simulates a mutation in a single base of the DNA object
-    4. Add a method that define the percentage of familiarity between two DNA specimen's
-    5. Add a last method that defines the likelyhood of survival considering that the chance is high if the DNA is made up at least 60% of 'C' and 'G' bases
-    6. Create 30 different DNA instance when the likelyhood of survival is above 60%
+1. Generate an array containing 15 bases ('A', 'B', 'C' and 'D') to represent a single DNA
+2. Create a factory (*pAequorFactory()*) that returns an object that contains the properties specimenNum and dna that correspond to the parameters provided
+3. Add a method that simulates a mutation in a single base of the DNA object
+4. Add a method that define the percentage of familiarity between two DNA specimen's
+5. Add a last method that defines the likelyhood of survival considering that the chance is high if the DNA is made up at least 60% of 'C' and 'G' bases
+6. Create 30 different DNA instance when the likelyhood of survival is above 60%
