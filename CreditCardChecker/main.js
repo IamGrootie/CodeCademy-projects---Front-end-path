@@ -22,7 +22,6 @@ const mystery5 = [4, 9, 1, 3, 5, 4, 0, 4, 6, 3, 0, 7, 2, 5, 2, 3]
 // An array of all the arrays above
 const batch = [valid1, valid2, valid3, valid4, valid5, invalid1, invalid2, invalid3, invalid4, invalid5, mystery1, mystery2, mystery3, mystery4, mystery5]
 
-
 // Function to validate credit card (using Luhn Algorithm):
 
 const validateCred = (arr) => {
@@ -40,18 +39,9 @@ const validateCred = (arr) => {
     return total%10 === 0;
 }
 
-//Test the function
-//console.log(validateCred(valid1));   //Should print true
-//console.log(validateCred(invalid2));  //Should print false
-
-
-/* INSTRUCTIONS: Create another function, findInvalidCards() that has one parameter for a nested array of credit card numbers. 
-The role of findInvalidCards() is to check through the nested array for which numbers are invalid, 
-and return another nested array of invalid cards. */
-
 // Function to find the Invalid Cards and return the invalid card numbers 
 
-const findInvalidCards = (arr) => {
+/*const findInvalidCards = (arr) => { // Initial function but improved to the uncomented one 
     let invalidCard = []
     for( let i=0; i < arr.length; i++) {
         let thisCard = arr[i];
@@ -60,23 +50,10 @@ const findInvalidCards = (arr) => {
         }
     }
     return invalidCard
-}
-// Test function
-//console.log(findInvalidCards([valid1, valid2, valid3, valid4, valid5]));// Shouldn't print anything
-//console.log(findInvalidCards([invalid1, invalid4, invalid5])); // Should print all of the numbers
+}*/ 
+const findInvalidCards = arr => arr.filter(card => !validateCred(card));
 
-
-/*After finding all the invalid credit card numbers, it’s also necessary to identify the credit card companies that have possibly issued these faulty numbers. 
-Create a function, idInvalidCardCompanies() that has one parameter for a nested array of invalid numbers and returns an array of companies.
-Currently, there 4 accepted companies which each have unique first digits. The following table shows which digit is unique to which company:
-First Digit	Company
-3	Amex (American Express)
-4	Visa
-5	Mastercard
-6	Discover
-If the number doesn’t start with any of the numbers listed, print out a message like: “Company not found”.
-idInvalidCardCompanies() should return an array of companies that have mailed out cards with invalid numbers. 
-This array should NOT contain duplicates, i.e. even if there are two invalid Visa cards, "Visa" should only appear once in the array. */
+// Function to identify the Companies of the invalid cards
 
 const idInvalidCardCompanies = (arr) => {
     const auxArr = arr[0];
@@ -94,5 +71,11 @@ const idInvalidCardCompanies = (arr) => {
     }
 }
 
+// --------- Test section --------- //
 
+//console.log(validateCred(valid1)); //Should print true
+//console.log(validateCred(invalid1)); //Should print false
+//console.log(findInvalidCards([valid1, valid2, valid3, valid4, valid5]));// Shouldn't print anything
+//console.log(findInvalidCards([invalid1, invalid4, invalid5])); // Should print all of the numbers of invalid Cards
 //console.log(idInvalidCardCompanies([invalid3])); // Should print the company
+
