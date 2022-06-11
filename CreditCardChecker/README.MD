@@ -17,10 +17,10 @@ Context: The company that you work for suspects that credit card distributors ha
 - Create a function *findInvalidCards() that has to check through the rested array for which numbers are invalid, and return another nested array of invalid cards.
 - Create idInvalidCardCompanies() to identify the credit card company of the invalid cards. If the number isn't listed print 'Company not found'
 <p align="center">
-  <img src="CompanyDigits.png" align="center"/>
+  <img src="CompanyDigit.png" align="center"/>
 </p>
 
-## Luhn Algorithm
+## <a name='LuhnAlgorithm'></a>Luhn Algorithm
 
 The Luhn algorithm is a series of mathematical calculations used to validate certain identification numbers, e.g. credit card numbers. The calculations in the Luhn algorithm can be broken down as the following steps:
 - Starting from the farthest digit to the right, AKA the check digit, iterate to the left.
