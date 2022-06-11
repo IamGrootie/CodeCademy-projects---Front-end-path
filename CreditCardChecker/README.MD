@@ -13,9 +13,9 @@ Context: The company that you work for suspects that credit card distributors ha
 
 ## [Tasks](https://www.codecademy.com/paths/front-end-engineer-career-path/tracks/fecp-22-javascript-syntax-part-ii/modules/wdcp-22-credit-card-checker/projects/credit-card-checker)
 
-- Create a function #validatedCred()# with an array as parameter. The function has to return true when an arrary contains digits of a valid credit card number and false when it is invalid. To accomplish that should be used the [Luhn Algorithm](#LuhnAlgorithm)
-- Create a function #findInvalidCards()# that has to check through the rested array for which numbers are invalid, and return another nested array of invalid cards.
-- Create #idInvalidCardCompanies()# to identify the credit card company of the invalid cards. If the number isn't listed print *'Company not found'*
+- Create a function **validatedCred()** with an array as parameter. The function has to return true when an arrary contains digits of a valid credit card number and false when it is invalid. To accomplish that should be used the [Luhn Algorithm](#LuhnAlgorithm)
+- Create a function **findInvalidCards()** that has to check through the rested array for which numbers are invalid, and return another nested array of invalid cards.
+- Create **idInvalidCardCompanies()** to identify the credit card company of the invalid cards. If the number isn't listed print *'Company not found'*
 <p align="center">
   <img src="CompanyDigit.png" align="center"/>
 </p>
